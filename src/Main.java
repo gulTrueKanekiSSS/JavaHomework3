@@ -13,7 +13,7 @@ public class Main {
         int twoBillion = 2000000;
         System.out.println("Значение переменной twoBillion с типом int равно " + twoBillion);
 
-        long veryBigNumber = 352678944;
+        long veryBigNumber = 35267987667548944L;
         System.out.println("Значение переменной veryBigNumber с типом long равно " + veryBigNumber);
 
         float fox = 7.46362f;
@@ -92,6 +92,8 @@ public class Main {
         int upperMarysSalary = marysSalary + increaseMarysSalary;
         int upperDenisSalary = denisSalary + increaseDenisSalary;
         int upperKrisSalary = krisSalary + increaseKrisSalary;
+
+
 
         System.out.println("Маша теперь получает " + upperMarysSalary + " рублей. Годовой доход вырос на " + increaseMarysSalary + " рублей");
         System.out.println("Денис теперь получает " + upperDenisSalary + " рублей. Годовой доход вырос на " + increaseDenisSalary + " рублей");
